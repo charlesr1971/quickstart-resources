@@ -142,7 +142,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: "get_folder_info",
         description:
-          "Get folder info from an api call. " +
+          "Get folder name info from an api call. " +
           "Handles various text encodings and provides detailed error messages " +
           "if the folder cannot be found. Use this tool when you need to examine " +
           "the contents of a single folders.",
